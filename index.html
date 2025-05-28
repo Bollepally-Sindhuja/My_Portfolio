@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon.png">
+    <title>Sindhuja - Portfolio</title>
+    <style>
+        .social-icons-container {
+    position: relative;
+    /* Ensures it stays on top */
+}
+
+    </style>
+
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/a9cdbedf57.js" crossorigin="anonymous"></script>
+
+    <!-- Styling CSS -->
+
+    <!-- Theme 1 -->
+    <link rel="stylesheet" id="themeStylesheet" href="./style.css">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Theme 2 -->
+    <!-- <link rel="stylesheet" href="./assets/css/style-two.css"> -->
+
+    <!-- Theme 3 -->
+    <!-- <link rel="stylesheet" href="./assets/css/style-three.css"> -->
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- <div>
+            <a href="./index.html"><span class="logo">WEB-DEVELOPER</span></a>
+        </div> -->
+        <div>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div>
+                <div>
+                    <h4 title="Hello, How are you?">Hi, There!</h4>
+                    
+                </div>
+                <h2 class="hero-section__title">
+                    I'm <span>Sindhuja Bollepally</span><br> I am good at <span id="animated-text"></span>
+                </h2>
+                
+                <script>
+                    const words = ["Frontend-development", "Python", "Data Structures"];
+                    let index = 0;
+                    let animatedText = document.getElementById("animated-text");
+                
+                    function animateText() {
+                        animatedText.textContent = "";
+                        let word = words[index];
+                        let charIndex = 0;
+                
+                        let typingEffect = setInterval(() => {
+                            if (charIndex < word.length) {
+                                animatedText.textContent += word[charIndex];
+                                charIndex++;
+                            } else {
+                                clearInterval(typingEffect);
+                                setTimeout(() => {
+                                    index = (index + 1) % words.length; // Loop through words
+                                    animateText();
+                                }, 1000); // Delay before changing word
+                            }
+                        }, 100); // Typing speed
+                    }
+                
+                    animateText();
+                </script>
+                
+                <style>
+                    #animated-text {
+                        font-weight: bold;
+                        color: hwb(332 6% 65%); /* Customize color */
+                        
+                        
+                    }
+                </style>
+                <div class="social-icons-container"></div>
+
+                <ul class="social-icons">
+                    <!-- Social Icons -->
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/in/bollepally-sindhuja-2836a4294/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://github.com/Bollepally-Sindhuja" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li>
+                    <a href="mailto:bollepallysindhuja@gmail.com" class="icon-btn">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    </li>
+                    <div class="hero-buttons">
+                    
+                        <button class="btn btn-dark-outlined">
+                            <a href="https://drive.google.com/file/d/1ZOLignfLbHFNGlCcYDgI5YUiuNEGXB56/view?usp=sharing" target="_blank" download>Resume</a>
+                        </button>
+                    </div>
+                </div>
+                    
+                    
+                </ul>
+            </div>
+                
+
+
+
+                
+
+            <div class="hero-img">
+                <img src="./sindhuja.jpg" alt="Sakshitha portfolio" width="400">
+            </div>
+        </section>
+
+        <!-- About Section  -->
+        <section class="about-section" id="about">
+
+            
+
+            <div class="about-content">
+                <h3>About Me</h3>
+                <h2>I am Programmer & <br> <span>Web Developer</span></h2>
+                <p>Hello there! I'm Sindhuja, a Fourth-year student at SR University,
+                    majoring in Computer
+                    Science. My academic journey has allowed me to dive deep into Web-Development, and I'm
+                    incredibly passionate about leveraging technology to solve real-world problems. Being a student
+                    in today's dynamic digital era, I've had opportunities to work on exciting projects, some of
+                    which you can explore right here on my portfolio.
+                </p>
+
+                
+            </div>
+
+        </section>
+        <section class="education-section" id="education">
+            <h2 class="education-title"><center>🎓 My Education</center></h2>
+
+    <div class="education-container">
+        <div class="education-card" style="border: 2px solid hwb(284 6% 65%); box-shadow: 0 0 15px hwb(284 6% 65%) ; transition: transform 0.3s;">
+            <span class="year-badge">2022 - 2026</span>
+            <h3><i class="fa-solid fa-graduation-cap icon"></i>B.Tech in Computer Science</h3>
+            <p>Sr University,Hasanparthy</p>
+            <p>CGPA-9.35 </p>
+            <p>Specialized in Web Development, Software Engineering,Operating systems,SQL</p>
+        </div>
+
+        <div class="education-card" style="border: 2px solid hwb(284 6% 65%); box-shadow: 0 0 15px hwb(284 6% 65%); transition: transform 0.3s;">
+            <span class="year-badge">2020 - 2022</span>
+            <h3><i class="fa-solid fa-school icon"></i>Higher Secondary Education</h3>
+            <p>Sr Junior College,Hanumakonda</p>
+            <p>Percentage - 97.2%</p>
+        </div>
+
+        <div class="education-card" style="border: 2px solid hwb(332 6% 65%); box-shadow: 0 0 15px hwb(332 6% 65%); transition: transform 0.3s;"
+        >
+            <span class="year-badge">2019 - 2020</span>
+            <h3><i class="fa-solid fa-book icon"></i>Secondary School Education</h3>
+            <p>Sree Chaitanya School</p>
+            <p>GPA-10</p>
+        </div>
+    </div>
+
+        </section>
+        <!-- <skills section ></skills> -->
+        <section class="skills-section" id="skills">
+            <h2 class="skills-title">🚀 My Skills</h2>
+        
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item"><i class="fa-solid fa-c"></i><span>C</span></div>
+                        <div class="skill-item"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                        <div class="skill-item"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                    </div>
+                </div>
+        
+                <div class="skills-category">
+                    <h3><i class="fa-solid fa-globe"></i> Web Programming</h3>
+                    <div class="skills-list">
+                        <div class="skill-item"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+                        <div class="skill-item"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+                        <div class="skill-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                        <div class="skill-item"><i class="fa-brands fa-angular"></i><span>AngularJS</span></div>
+                        
+                    </div>
+                </div>
+        
+                <div class="skills-category">
+                    <h3><i class="fa-solid fa-database"></i> Databases</h3>
+                    <div class="skills-list">
+                        <div class="skill-item"><i class="fa-solid fa-database"></i><span>SQL</span></div>
+                        <div class="skill-item"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+                        <div class="skill-item"><i class="fa-solid fa-database"></i><span>PL/SQL</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <h2>My <span>Projects</span></h2>
+            <div class="projects-cards">
+                <div class="projects-card-box" style="border: 2px solid rgb(110, 2, 83); box-shadow: 0 0 15px hwb(332 6% 65%); transition: transform 0.3s;">
+                    
+                    <div class="projects-card-box__desc" >
+                        <h4>Online Voting System</h4>
+                        <ul>
+                            <li>
+                                Built a console-based Online Voting System using core Python to simulate a digital voting process. The system includes features like voter registration, candidate listing, and secure vote casting.</li>
+                            <li>Used dictionaries and file handling to manage and store voter data and vote counts.</li>
+                             <li>This project demonstrates the use of Python for handling user input, data storage, and basic security in a voting application.</li>   
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="projects-card-box__buttons" style="border: 2px solid rgb(110, 2, 83); box-shadow: 0 0 15px hwb(332 6% 65%); transition: transform 0.3s;">
+                        <button class="btn btn-dark-outlined">
+                            <a href="https://github.com/Bollepally-Sindhuja/Python_Project" target="_blank">View <i
+                                    class="fa-solid fa-external-link"></i></a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="projects-card-box" style="border: 2px solid rgb(110, 2, 83); box-shadow: 0 0 15px hwb(332 6% 65%); transition: transform 0.3s;">
+                    <div class="projects-card-box__icons">
+                        
+                    </div>
+                    <div class="projects-card-box__desc">
+                        <h4>Song Lyrics Generator</h4>
+                        <ul>
+                        
+                        <li>Developed an AI-based Song Lyrics Generator that creates new song lyrics.</li>
+                        <li>Designed to simplify workflows, thereby reducing the overall workload and stress of library staff.</li>
+                        <li>This project showcases the application of NLP and deep learning in generating human-like text.</li><br><br><br><br>
+                    </div>
+                    <div class="projects-card-box__buttons" style="border: 2px solid rgb(110, 2, 83); box-shadow: 0 0 15px hwb(332 6% 65%); transition: transform 0.3s;">
+                        <button class="btn btn-dark-outlined">
+                            <a href="https://github.com/Bollepally-Sindhuja/Song-Lyrics-Generator/tree/main/SONG_LYRICS_GENERATOR-main"
+                                target="_blank">View <i class="fa-solid fa-external-link"></i></a>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="projects-card-box" style="border: 2px solid rgb(110, 2, 83); box-shadow: 0 0 15px hwb(332 6% 65%); transition: transform 0.3s;">
+                    <div class="projects-card-box__icons">
+                        
+                    </div>
+                    <div class="projects-card-box__desc">
+                        <h4>Hospital Management System</h4>
+                        <li>  Developed a responsive web-based Hospital Management System.</li>
+                        <li>The system includes key features such as patient registration and management, allowing users to add, view, edit, and delete patient records.</li>
+                        <li>The interface is responsive, using basic CSS styling techniques and media queries to adapt to different screen sizes.</li><br>
+                    </div>
+                    <div class="projects-card-box__buttons" style="border: 2px solid rgb(110, 2, 83); box-shadow: 0 0 15px ; transition: transform 0.3s;">
+                        <button class="btn btn-dark-outlined">
+                            <a href="https://bollepally-sindhuja.github.io/Hospital-Management-System-main/"
+                                target="_blank">View <i class="fa-solid fa-external-link"></i></a>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-container">
+                <h2>Contact Me</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-user"></i>
+                        <p>Bollepally-Sindhuja</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Waddepally,Hanamkonda</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p><a href="mailto:bollepallysindhuja@gmail.com">bollepallysindhuja@gmail.com</a></p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <p><a href="https://www.linkedin.com/in/bollepally-sindhuja-2836a4294/" target="_blank">LinkedIn Profile</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FontAwesome for Icons -->
+        <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+        
+
+        
+            
+
+    </main>
+
+    
+
+    <!-- JS -->
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
