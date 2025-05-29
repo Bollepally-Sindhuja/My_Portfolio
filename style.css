@@ -330,7 +330,7 @@ section.about-section {
 
 .skills-category h3 {
   font-size: 22px;
-  color: black;
+  color: white;
   margin-bottom: 10px;
   
 }
@@ -455,7 +455,7 @@ section.projects-section {
   text-align: center;
   min-height:600px;
   background-color:white;
-  color:black;
+  color:hwb(284 6% 65%);
   
    /* Creates space between sections */
 }
@@ -486,12 +486,12 @@ h2 {
 
 .contact-item i {
   font-size: 22px;
-  color: rgb(110, 2, 83); /* LinkedIn Blue */
+  color: hwb(284 6% 65%); /* LinkedIn Blue */
 }
 
 .contact-item a {
   text-decoration: none;
-  color:black;
+  color:hwb(284 6% 65%);
   font-weight: bold;
 }
 
@@ -663,7 +663,7 @@ a{
 body, html {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: white;
 }
 
 /* Hero section takes full screen height with proper spacing */
@@ -695,7 +695,7 @@ body, html {
   object-fit: cover;
   border-radius: 50%;
   display: block;
-  background-color: black;
+  background-color: white;
 }
 
 /* Fix about section positioning */
