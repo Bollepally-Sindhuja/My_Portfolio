@@ -53,7 +53,7 @@ header ul li {
 }
 
 header ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease 0s;
@@ -99,7 +99,7 @@ section.hero-section {
   border-radius: 50%;
 }
 .hero-section {
-  height:100px;  /* Adjust as needed */
+  height:700px;  /* Adjust as needed */
   display: flex;
   align-items: center; /* Keeps content vertically centered */
   position: relative;
@@ -121,9 +121,9 @@ section.hero-section {
   padding-right:20px;
 }
 #animated-text {
-  font-size: 40px; /* Adjust size as needed */
+  font-size: 20px; /* Adjust size as needed */
   font-weight: bold;
-  color: white; /* Change color if necessary */
+  color: black; /* Change color if necessary */
 }
 
 .social-icons {
