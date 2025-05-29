@@ -67,7 +67,7 @@ header ul li a:hover {
 /* Hero Section */
 section.hero-section {
   background-color: var(--dark-primary);
-  color:white;
+  color:black;
   display: flex;
   align-items: center;
   padding: 100px 120px 50px 200px;
