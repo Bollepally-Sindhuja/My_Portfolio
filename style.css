@@ -2,8 +2,8 @@
 
 /* Global variables */
 :root {
-  --primary: hwb(284 6% 65%);
-  --primary-hover:hwb(284 6% 65%);
+  --primary: hwb(332 8% 57%);
+  --primary-hover:hwb(332 8% 57%);
   --dark-primary:white;
 }
 
@@ -220,7 +220,7 @@ section.about-section {
   padding: 2px;
   border-radius: 50%;
   border: 3px solid var(--primary);
-  box-shadow: 3px 5px 30px hwb(284 6% 65%);
+  box-shadow: 3px 5px 30px hwb(332 8% 57%);
   object-fit: cover;
 }
 
@@ -259,7 +259,7 @@ section.about-section {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
-  color:hwb(284 6% 65%);
+  color:hwb(332 8% 57%);
 }
 .education-container {
   display: flex;
@@ -280,7 +280,7 @@ section.about-section {
 }
 .education-card:hover {
   transform: scale(1.05);
-  box-shadow: 0px 6px 15px hwb(284 6% 65%);
+  box-shadow: 0px 6px 15px hwb(332 8% 57%);
 }
 .education-card h3 {
   margin: 0;
@@ -293,7 +293,7 @@ section.about-section {
   color: black;
 }
 .year-badge {
-  background-color: hwb(284 6% 65%);
+  background-color: hwb(332 8% 57%);
   color: white;
   padding: 5px 10px;
   font-size: 14px;
@@ -305,7 +305,7 @@ section.about-section {
 .icon {
   font-size: 24px;
   margin-right: 10px;
-  color: hwb(284 6% 65%);
+  color: hwb(332 8% 57%);
 }
 .skills-section{
   padding-top:70px;
@@ -315,7 +315,7 @@ section.about-section {
   text-align: center;
   font-size: 28px;
   margin-bottom: 20px;
-  color: hwb(284 6% 65%);
+  color: hwb(332 8% 57%);
 }
 
 .skills-content {
@@ -353,8 +353,8 @@ section.about-section {
   width: 85px;  /* Reduced box size */
   height: 85px; /* Reduced box size */
   background: white;
-  border: 3px solid hwb(284 6% 65%);
-  box-shadow: 0 0 20px hwb(284 6% 65%);
+  border: 3px solid hwb(332 8% 57%);
+  box-shadow: 0 0 20px hwb(332 8% 57%);
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
 }
@@ -458,7 +458,7 @@ section.projects-section {
   text-align: center;
   min-height:600px;
   background-color:white;
-  color:hwb(284 6% 65%);
+  color:hwb(332 8% 57%);
   
    /* Creates space between sections */
 }
@@ -489,12 +489,12 @@ h2 {
 
 .contact-item i {
   font-size: 22px;
-  color: hwb(284 6% 65%); /* LinkedIn Blue */
+  color: hwb(332 8% 57%); /* LinkedIn Blue */
 }
 
 .contact-item a {
   text-decoration: none;
-  color:hwb(284 6% 65%);
+  color:hwb(332 8% 57%);
   font-weight: bold;
 }
 
@@ -760,7 +760,7 @@ body, html {
 
 .hero-section__title #animated-text {
   font-size: 18px; /* even smaller size for the animated text */
-  color:hwb(284 6% 65%);/* optional: different color */
+  color:hwb(332 8% 57%);/* optional: different color */
 }
 .hero-section {
   display: flex;
@@ -838,7 +838,7 @@ header ul li a {
 }
 .hero-section__title #animated-text {
   font-size: 15px; /* even smaller size for the animated text */
-  color:hwb(284 6% 65%);/* optional: different color */
+  color:hwb(332 8% 57%);/* optional: different color */
 }
  .hero-section {
    display: flex;
